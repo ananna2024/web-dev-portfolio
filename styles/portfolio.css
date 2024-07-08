@@ -52,7 +52,7 @@ nav li a {
     font-weight: 600 ;
 }
 .h1{
-    font-size: 85px;
+    font-size: 50px;
     font-weight: bold;
 }
 .banner-description{
@@ -129,4 +129,38 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(0, 0,0,0.06);
+}
+.resume-container{
+    display: flex;
+    gap: 24px; 
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+
 }
